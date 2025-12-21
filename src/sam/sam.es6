@@ -9,8 +9,9 @@ import Renderer from '../renderer/renderer.es6';
  * @param {String} input
  *
  * @param {object}  [options]
+ * @param {Boolean} [options.phonetic] Default true.
  * @param {Boolean} [options.singmode] Default false.
- * @param {Boolean} [options.debug]    Default true.
+ * @param {Boolean} [options.debug]    Default false.
  * @param {Number}  [options.pitch]    Default 64.
  * @param {Number}  [options.speed]    Default 72.
  * @param {Number}  [options.mouth]    Default 128.
@@ -34,8 +35,9 @@ export function SamSpeak (input, options) {
  * @param {String} input
  *
  * @param {object}  [options]
+ * @param {Boolean} [options.phonetic] Default true.
  * @param {Boolean} [options.singmode] Default false.
- * @param {Boolean} [options.debug]    Default true.
+ * @param {Boolean} [options.debug]    Default false.
  * @param {Number}  [options.pitch]    Default 64.
  * @param {Number}  [options.speed]    Default 72.
  * @param {Number}  [options.mouth]    Default 128.
@@ -58,8 +60,9 @@ export function SamBuffer (input, options) {
  * @param {String} input
  *
  * @param {object}  [options]
+ * @param {Boolean} [options.phonetic] Default true.
  * @param {Boolean} [options.singmode] Default false.
- * @param {Boolean} [options.debug]    Default true.
+ * @param {Boolean} [options.debug]    Default false.
  * @param {Number}  [options.pitch]    Default 64.
  * @param {Number}  [options.speed]    Default 72.
  * @param {Number}  [options.mouth]    Default 128.
