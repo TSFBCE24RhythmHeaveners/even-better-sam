@@ -15,17 +15,17 @@ import CreateOutputBuffer from './output-buffer.es6';
  * @param {Number} [mouth]
  * @param {Number} [throat]
  * @param {Number} [speed]
- * @param {Boolean} [phonetic]
+ * @param {Boolean} [debug]
  * @param {Boolean} [singmode]
  *
  * @return Uint8Array
  */
-export default function Renderer(phonemes, pitch, mouth, throat, speed, phonetic, singmode) {
+export default function Renderer(phonemes, pitch, mouth, throat, speed, debug, singmode) {
   pitch = (pitch === undefined) ? 64 : pitch & 0xFF;
   mouth = (mouth === undefined) ? 128 : mouth & 0xFF;
   throat = (throat === undefined) ? 128 : throat & 0xFF;
   speed = (speed || 72) & 0xFF;
-  phonetic = phonetic || false;
+  debug = debug || false;
   singmode = singmode || false;
 
   // Every frame is 20ms long.
