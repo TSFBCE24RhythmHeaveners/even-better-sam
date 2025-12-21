@@ -33,9 +33,9 @@ export function SamSpeak (input, options) {
  * Process the input and return the audio buffer.
  *
  * @param {String} input
+ * @param {Boolean} [options.phonetic] Default false.
  *
  * @param {object}  [options]
- * @param {Boolean} [options.phonetic] Default false.
  * @param {Boolean} [options.singmode] Default false.
  * @param {Boolean} [options.debug]    Default false.
  * @param {Number}  [options.pitch]    Default 64.
@@ -58,9 +58,9 @@ export function SamBuffer (input, options) {
  * Process the input and return the audiobuffer.
  *
  * @param {String} input
+ * @param {Boolean} [options.phonetic] Default false.
  *
  * @param {object}  [options]
- * @param {Boolean} [options.phonetic] Default false.
  * @param {Boolean} [options.singmode] Default false.
  * @param {Boolean} [options.debug]    Default false.
  * @param {Number}  [options.pitch]    Default 64.
