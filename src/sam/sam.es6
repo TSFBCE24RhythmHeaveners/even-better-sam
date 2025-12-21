@@ -7,9 +7,9 @@ import Renderer from '../renderer/renderer.es6';
  * Process the input and play the audio buffer.
  *
  * @param {String} input
+ * @param {Boolean} [options.phonetic] Default false.
  *
  * @param {object}  [options]
- * @param {Boolean} [options.phonetic] Default false.
  * @param {Boolean} [options.singmode] Default false.
  * @param {Boolean} [options.debug]    Default false.
  * @param {Number}  [options.pitch]    Default 64.
