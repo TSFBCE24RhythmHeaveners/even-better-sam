@@ -3626,6 +3626,7 @@ function SamBuffer (input, options) {
  * @param {String} input
  *
  * @param {object}  [options]
+ * @param {Boolean} [options.phonetic] Default false.
  * @param {Boolean} [options.singmode] Default false.
  * @param {Boolean} [options.debug]    Default false.
  * @param {Number}  [options.pitch]    Default 64.
@@ -3643,7 +3644,7 @@ function SamProcess (input, options) {
     return false;
   }
 
-  return Renderer(parsed, options.pitch, options.mouth, options.throat, options.speed, options.singmode);
+  return Renderer(parsed, options.pitch, options.mouth, options.throat, options.speed, options.singmode, options.phonetic);
 }
 
 var convert = TextToPhonemes;
