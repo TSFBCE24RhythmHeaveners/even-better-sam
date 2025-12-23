@@ -3608,6 +3608,7 @@
    * @param {String} input
    *
    * @param {object}  [options]
+   * @param {Boolean} [options.phonetic] Default false.
    * @param {Boolean} [options.singmode] Default false.
    * @param {Boolean} [options.debug]    Default false.
    * @param {Number}  [options.pitch]    Default 64.
@@ -3632,6 +3633,7 @@
    * @param {String} input
    *
    * @param {object}  [options]
+   * @param {Boolean} [options.phonetic] Default false.
    * @param {Boolean} [options.singmode] Default false.
    * @param {Boolean} [options.debug]    Default false.
    * @param {Number}  [options.pitch]    Default 64.
