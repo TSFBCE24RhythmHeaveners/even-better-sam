@@ -3651,7 +3651,7 @@
       return false;
     }
 
-    return Renderer(parsed, options.pitch, options.mouth, options.throat, options.speed, options.singmode);
+    return Renderer(parsed, options.pitch, options.mouth, options.throat, options.speed, options.singmode, options.phonetic);
   }
 
   var convert = TextToPhonemes;
